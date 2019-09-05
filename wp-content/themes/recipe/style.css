@@ -1,0 +1,147 @@
+/*
+
+Theme Name: Recipe
+Author Name: Sandip Patil
+Author URL: http://www.goole.com
+Version:1.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	color:#333333;
+}
+.site-header{
+	border-bottom:2px solid #bbbbbb;
+}
+.site-footer{
+	border-top:2px solid #bbbbbb;
+}
+.post-title{
+	padding-top:15px;
+}
+article.post{
+	border-bottom:2px dotted #bbbbbb;
+}
+article.post:last-of-type{
+	border-bottom:none;
+}
+
+/*Navigation menu css*/
+
+.site-header .site-nav ul{
+	padding-left:0px;
+	margin:20px 0px;
+}
+.site-header .site-nav ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+.site-header .site-nav ul li a{
+	padding:10px 15px;
+}
+.site-header .site-nav ul li a:hover{
+	text-decoration: none;
+	background-color:#007bff;
+	color:#ffffff;
+}
+.site-header .site-nav ul li.current-menu-item a{
+	text-decoration: none;
+	background-color:#007bff;
+	color:#ffffff;
+}
+
+.site-header .site-nav ul li:first-of-type a{
+	/*padding-left:0px;*/
+}
+
+.site-footer .site-nav ul{
+	padding-left:0px;
+	margin:20px 0px;
+}
+.site-footer .site-nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	border-right:2px dotted #cccccc;
+}
+.site-footer .site-nav ul li a{
+	padding:10px 15px;
+	outline:none;
+}
+.site-footer .site-nav ul li a:hover{
+	outline:none;
+}
+.site-footer .site-nav ul li:last-of-type {
+	border-right:none;
+}
+
+
+/*Apply css for blog images*/
+.blog-img img{
+	border-radius:15px;
+}
+
+/*Info Box*/
+.info-box{
+	padding:15px;
+	font-size: 16px;
+	font-style:italic;
+	text-transform: capitalize;
+	background-color: #ccc;
+	color:#000000;
+	margin:15px 0px;
+}
+.attachment-post-thumbnail{
+	/*width: 100%;*/
+	border-radius:10px;
+	/*height: 350px;*/
+	border:1px solid #000;
+	box-shadow: 0 8px 6px #8c8c8c;
+}
+.hd-search{
+	float:right;
+	margin-bottom:25px;
+	margin-top:10px;
+}
+.search-submit{
+	background-color: blue;
+	color:#ffffff;
+	border-radius: 5px;
+	padding: 5px 15px;
+	border: 0px;
+}
+.search-submit:hover{
+	cursor: pointer;
+}
+.box{
+	overflow: hidden;
+	height:200px;
+	border:1px solid #000000;
+	border-radius:4px;
+}
+.box:hover img{
+	overflow: hidden;
+	height:200px;
+}
+
+.pastry-img{
+	/*border:1px solid black;*/
+	border-radius:4px;
+	height:200px;
+	width:100%;
+	transition: transform .5s ease;
+}
+.pastry-img:hover{
+	opacity:0.8;
+    transform: scale(1.2);
+}
+.pastry-title{
+	font-size:16px;
+	font-weight: 600;
+	color:#545454;
+}
+.pastry-title:hover{
+	color:#545454;
+	/*text-decoration: none;*/
+}
